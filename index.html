@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+r<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -369,5 +369,40 @@ padding-top: 15px;
     });
   });
 </script>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoojaStudio - AI & Web Development Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- All your remaining website HTML code will go here -->
+    
+    <header>
+        <!-- Navbar & Hero Section -->
+    </header>
+
+    <!-- YOUR JAVASCRIPT CODE GOES HERE (Just before closing body tag) -->
+    <script>
+        // Select the 'Calculate Project Cost' button
+        const costButton = document.querySelector('a, button'); // You can also put your specific button class or id here
+
+        if (costButton) {
+            costButton.addEventListener('click', function(event) {
+                // A simple project budget estimator prompt
+                let projectType = prompt("What kind of project would you like? (1: Basic Website, 2: E-commerce, 3: AI Solutions)");
+                
+                if (projectType) {
+                    alert("Thank you! The estimated starting cost for your project is approximately $299. Our team will contact you soon.");
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
 </body>
 </html>
